@@ -1,5 +1,5 @@
 export const selectContacts = state => state.contacts.items;
-export const selectFilter = state => state.contacts.filter;
+export const selectFilter = state => state.filter;
 
 export const selectFilteredContacts = state => {
   const normalizedFilter = selectFilter(state).toLowerCase();
